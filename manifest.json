@@ -1,14 +1,25 @@
 {
-  "name": "Do",
-  "short_name": "Do",
-  "start_url": "./index.html",
+  "name": "DO – To do list",
+  "short_name": "DO",
+  "description": "Your personal to do list.",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#0E2A33",
+  "orientation": "portrait",
+  "background_color": "#E8EFF1",
   "theme_color": "#0E2A33",
   "icons": [
-    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
   ]
 }
